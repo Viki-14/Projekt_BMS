@@ -1,0 +1,354 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f3f5bf67-59a2-4fff-a256-b414fb7b1786")
+	(paper "A4")
+	(title_block
+		(title "Schematic BMS PCB")
+		(date "2025-04-09")
+	)
+	(lib_symbols)
+	(sheet
+		(at 71.12 71.12)
+		(size 44.45 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "04ae05aa-56cb-41e9-ba09-f0a616efe019")
+		(property "Sheetname" "Temperature Measurement"
+			(at 71.12 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Temperature Measurement.kicad_sch"
+			(at 71.12 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMS_PCB"
+				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 71.12)
+		(size 40.64 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0a99f3ab-5952-4099-a431-b59c5f3ceb10")
+		(property "Sheetname" "Voltage Measurement"
+			(at 21.59 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Voltage Measurement.kicad_sch"
+			(at 21.59 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMS_PCB"
+				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 21.59 17.78)
+		(size 40.64 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "64c54cf2-e962-4d56-8350-2823e3c7a7e9")
+		(property "Sheetname" "Connectors"
+			(at 21.59 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 21.59 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMS_PCB"
+				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 17.78)
+		(size 44.45 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6fb3ba5e-2f75-4f5a-9ee2-e60121c4d894")
+		(property "Sheetname" "DCDC"
+			(at 71.12 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DCDC.kicad_sch"
+			(at 71.12 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMS_PCB"
+				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 123.19)
+		(size 39.37 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "70268bf0-6659-4886-b5bd-e8e42422f194")
+		(property "Sheetname" "Main Contactor Control"
+			(at 22.86 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Main Contactor Control.kicad_sch"
+			(at 22.86 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMS_PCB"
+				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 123.19)
+		(size 45.72 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "84cafc56-a945-4d00-83b7-09041457ec54")
+		(property "Sheetname" "uC"
+			(at 124.46 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uC.kicad_sch"
+			(at 124.46 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMS_PCB"
+				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 123.19)
+		(size 44.45 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "87fe232f-8506-496f-8634-33aef9628ad6")
+		(property "Sheetname" "Precharge"
+			(at 71.12 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Precharge.kicad_sch"
+			(at 71.12 164.4146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMS_PCB"
+				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 71.12)
+		(size 44.45 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97cd556a-bb13-4bbd-9a52-b5c25c14caba")
+		(property "Sheetname" "Current Measurement"
+			(at 124.46 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current Measurement.kicad_sch"
+			(at 124.46 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BMS_PCB"
+				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
