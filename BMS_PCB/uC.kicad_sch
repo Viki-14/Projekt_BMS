@@ -3392,7 +3392,7 @@
 				)
 				(uuid "9cab2144-d1ec-4785-9703-97fa31cbbba1")
 			)
-			(table_cell "Voltage34_uC"
+			(table_cell "Temp6_uC"
 				(exclude_from_sim no)
 				(at 242.57 29.21 0)
 				(size 19.05 2.54)
@@ -3460,7 +3460,7 @@
 				)
 				(uuid "6330403a-a88e-4f13-bb8c-474a7f30eca2")
 			)
-			(table_cell "Temp6_uC"
+			(table_cell ""
 				(exclude_from_sim no)
 				(at 242.57 31.75 0)
 				(size 19.05 2.54)
