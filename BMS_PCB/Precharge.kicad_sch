@@ -601,39 +601,52 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:Relay_SPST-NO"
+		(symbol "J1021AS35VDC.20:J1021AS35VDC.20"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "K"
-				(at 11.43 3.81 0)
+			(property "Reference" "K1"
+				(at 10.1599 6.35 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 					(justify left)
 				)
 			)
-			(property "Value" "Relay_SPST-NO"
-				(at 11.43 1.27 0)
+			(property "Value" "J1021AS35VDC.20"
+				(at 12.6999 6.35 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 11.43 -1.27 0)
+			(property "Footprint" "J1021AS35VDC.20:J1021AS_CRS"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "J1021AS35VDC.20"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -642,7 +655,15 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Relay SPST, normally open, EN50005"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "J1021AS35VDC.20"
 				(at 0 0 0)
 				(effects
 					(font
@@ -651,7 +672,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "1P1T 1-Form-A single pole throw NO"
+			(property "ki_fp_filters" "J1021AS_CRS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -660,46 +681,13 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay?SPST*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Relay_SPST-NO_0_0"
+			(symbol "J1021AS35VDC.20_0_1"
 				(polyline
 					(pts
-						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+						(xy 7.62 5.08) (xy 7.62 -10.16)
 					)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Relay_SPST-NO_0_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -8.255 1.905)
-					(end -1.905 -1.905)
-					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -708,10 +696,10 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 -1.905) (xy -2.54 1.905)
+						(xy 7.62 0) (xy 15.24 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -720,10 +708,10 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 5.08) (xy -5.08 1.905)
+						(xy 7.62 -5.08) (xy 7.9375 -5.08)
 					)
 					(stroke
-						(width 0)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -732,10 +720,10 @@
 				)
 				(polyline
 					(pts
-						(xy -5.08 -5.08) (xy -5.08 -1.905)
+						(xy 7.62 -7.62) (xy 7.9375 -7.62)
 					)
 					(stroke
-						(width 0)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -744,10 +732,22 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 0) (xy -1.27 0)
+						(xy 7.62 -10.16) (xy 15.24 -10.16)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 8.255 0.3048)
+					(mid 8.5584 0)
+					(end 8.255 -0.3048)
+					(stroke
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -756,10 +756,10 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 0) (xy 0 0)
+						(xy 8.255 2.2225) (xy 8.255 0.3175)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -768,10 +768,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0) (xy 1.27 0)
+						(xy 8.255 2.2225) (xy 10.16 2.2225)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -780,10 +780,32 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 0) (xy 2.54 0)
+						(xy 8.255 -0.3175) (xy 8.255 -4.7752)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.255 -5.08)
+					(radius 0.3048)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.255 -7.62)
+					(radius 0.3048)
+					(stroke
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -792,10 +814,10 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 0) (xy 3.81 0)
+						(xy 10.16 2.54) (xy 10.16 1.905)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -804,8 +826,31 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 3.175 3.81)
+						(xy 10.16 2.54) (xy 12.7 2.54)
 					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.43 0) (xy 11.43 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 11.43 0)
+					(radius 0.127)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -816,29 +861,181 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -2.54) (xy 5.08 -5.08)
+						(xy 11.43 -2.54) (xy 10.16 -7.62)
 					)
 					(stroke
-						(width 0)
+						(width 0.127)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Relay_SPST-NO_1_1"
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 12.7 1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.2225) (xy 14.605 2.2225)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 1.905) (xy 10.16 1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.2875 -7.62) (xy 12.7 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 2.2225) (xy 14.605 0.3175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.605 -0.3175) (xy 14.605 -4.7752)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 14.605 -5.08)
+					(radius 0.3048)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 14.605 -7.62)
+					(radius 0.3048)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 14.605 -0.3048)
+					(mid 14.3015 0)
+					(end 14.605 0.3048)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.9225 -7.62) (xy 15.24 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -5.08) (xy 14.9225 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -10.16) (xy 15.24 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 7.62 270)
-					(length 2.54)
-					(name "~"
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A1"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -847,34 +1044,16 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 90)
-					(length 2.54)
-					(name "~"
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -883,16 +1062,70 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 270)
-					(length 2.54)
-					(name "~"
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 7.62)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 7.62)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 7.62)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1143,14 +1376,22 @@
 		(uuid "1a82af97-e96a-4890-9e5f-84a414323468")
 	)
 	(junction
-		(at 129.54 58.42)
+		(at 129.54 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "715572af-2450-451b-b1e3-a5d1a4fa3e79")
 	)
+	(no_connect
+		(at 134.62 76.2)
+		(uuid "28f2e084-6bc0-4334-88fe-cc435fd18a8b")
+	)
+	(no_connect
+		(at 127 53.34)
+		(uuid "b86b2e43-cf8c-433b-a1e0-0eb6a3dc1b12")
+	)
 	(wire
 		(pts
-			(xy 116.84 58.42) (xy 129.54 58.42)
+			(xy 116.84 45.72) (xy 129.54 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1160,7 +1401,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 68.58) (xy 116.84 58.42)
+			(xy 116.84 62.23) (xy 116.84 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1200,7 +1441,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 76.2) (xy 116.84 83.82)
+			(xy 116.84 69.85) (xy 116.84 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1230,7 +1471,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 78.74) (xy 129.54 83.82)
+			(xy 129.54 76.2) (xy 129.54 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1260,7 +1501,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 58.42) (xy 129.54 63.5)
+			(xy 129.54 45.72) (xy 129.54 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1270,7 +1511,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 49.53) (xy 129.54 58.42)
+			(xy 129.54 36.83) (xy 129.54 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1280,7 +1521,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 59.69) (xy 142.24 63.5)
+			(xy 134.62 48.26) (xy 134.62 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1300,17 +1541,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 78.74) (xy 139.7 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccdcbebe-1367-49ee-8805-a98dc3bb1a9c")
-	)
-	(wire
-		(pts
-			(xy 142.24 48.26) (xy 142.24 52.07)
+			(xy 134.62 30.48) (xy 134.62 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1320,7 +1551,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 48.26) (xy 142.24 48.26)
+			(xy 140.97 30.48) (xy 134.62 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1330,13 +1561,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 85.09) (xy 144.78 85.09)
+			(xy 127 76.2) (xy 127 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7701826-786f-42d7-b9c3-0eba7258bf1c")
+		(uuid "da4e147e-69e4-4bc2-a550-8e4c0bd44955")
+	)
+	(wire
+		(pts
+			(xy 127 80.01) (xy 142.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0410c15-b47c-465f-9f7d-49ad30ecaf46")
 	)
 	(global_label "Precharge_uC"
 		(shape input)
@@ -1362,7 +1603,7 @@
 	)
 	(global_label "Precharge_out"
 		(shape input)
-		(at 144.78 85.09 0)
+		(at 142.24 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1372,7 +1613,7 @@
 		)
 		(uuid "559bec3e-fc70-4963-bbae-ab1b25f676bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.3117 85.09 0)
+			(at 158.7717 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,7 +1625,7 @@
 	)
 	(global_label "Precharge_in"
 		(shape input)
-		(at 148.59 48.26 0)
+		(at 140.97 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1394,7 +1635,7 @@
 		)
 		(uuid "c0f74716-2737-453a-86d9-ae9f9b7a60bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.8518 48.26 0)
+			(at 156.2318 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1406,7 +1647,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 55.88 0)
+		(at 134.62 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1415,7 +1656,7 @@
 		(fields_autoplaced yes)
 		(uuid "0476d14e-c534-400d-8a4d-302447e5aeac")
 		(property "Reference" "R_Precharge1"
-			(at 144.78 54.6099 0)
+			(at 137.16 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,7 +1665,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 144.78 57.1499 0)
+			(at 137.16 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,7 +1674,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder"
-			(at 140.462 55.88 90)
+			(at 132.842 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1442,7 +1683,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 55.88 0)
+			(at 134.62 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1451,7 +1692,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 142.24 55.88 0)
+			(at 134.62 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1676,7 +1917,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 129.54 49.53 0)
+		(at 129.54 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1685,7 +1926,7 @@
 		(fields_autoplaced yes)
 		(uuid "95ac3766-2284-4465-a3fc-128fc2aa346e")
 		(property "Reference" "#PWR014"
-			(at 129.54 53.34 0)
+			(at 129.54 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +1935,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 129.54 44.45 0)
+			(at 129.54 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,7 +1943,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 49.53 0)
+			(at 129.54 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1711,7 +1952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 49.53 0)
+			(at 129.54 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1720,7 +1961,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 129.54 49.53 0)
+			(at 129.54 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,6 +1976,89 @@
 			(project "BMS_PCB"
 				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786/87fe232f-8506-496f-8634-33aef9628ad6"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "J1021AS35VDC.20:J1021AS35VDC.20")
+		(at 134.62 53.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9adc406-f4f2-4d99-a41e-5d6d39183f88")
+		(property "Reference" "K1"
+			(at 140.97 63.4999 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "J1021AS35VDC.20"
+			(at 140.97 66.0399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "J1021AS35VDC.20:J1021AS_CRS"
+			(at 134.62 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "J1021AS35VDC.20"
+			(at 134.62 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "b95135e6-927e-4324-bfe2-7b49b6232ec3")
+		)
+		(pin "2"
+			(uuid "3c3f5e41-e787-408b-9277-4b4f1c11e359")
+		)
+		(pin "1"
+			(uuid "55aca56b-3099-41ae-a247-9448db288183")
+		)
+		(pin "3"
+			(uuid "99d1a013-e78d-4d25-a675-62b9990cabcc")
+		)
+		(pin "6"
+			(uuid "11b36408-ee79-4761-b3df-017a474eaf00")
+		)
+		(pin "4"
+			(uuid "45869a4c-7da3-4a45-b22f-57701a084b0c")
+		)
+		(instances
+			(project ""
+				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786/87fe232f-8506-496f-8634-33aef9628ad6"
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -1867,7 +2191,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4007")
-		(at 116.84 72.39 90)
+		(at 116.84 66.04 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1876,7 +2200,7 @@
 		(dnp no)
 		(uuid "be08ffa9-87e6-4732-ab7d-7d0e018636d6")
 		(property "Reference" "D2"
-			(at 114.3 71.1199 90)
+			(at 114.3 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1885,7 +2209,7 @@
 			)
 		)
 		(property "Value" "1N4007"
-			(at 114.3 73.6599 90)
+			(at 114.3 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1894,7 +2218,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 121.285 72.39 0)
+			(at 121.285 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1903,7 +2227,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 116.84 72.39 0)
+			(at 116.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1912,7 +2236,7 @@
 			)
 		)
 		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 116.84 72.39 0)
+			(at 116.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1921,7 +2245,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 116.84 72.39 0)
+			(at 116.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1930,7 +2254,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 116.84 72.39 0)
+			(at 116.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,83 +2342,6 @@
 			(project "BMS_PCB"
 				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786/87fe232f-8506-496f-8634-33aef9628ad6"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_SPST-NO")
-		(at 134.62 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e51d23d3-3e92-42d5-bccb-23c8f90b673b")
-		(property "Reference" "K1"
-			(at 146.05 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Relay_SPST-NO"
-			(at 146.05 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "J1021AS35VDC.20:J1021AS_CRS"
-			(at 146.05 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay SPST, normally open, EN50005"
-			(at 134.62 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "14"
-			(uuid "35456ff3-4093-4888-b207-a79cb5cef5aa")
-		)
-		(pin "A1"
-			(uuid "fa49e84d-9fd8-47a1-b7ff-92b345ff02b5")
-		)
-		(pin "A2"
-			(uuid "b7f391cf-4bd1-4526-acda-cd16572f9804")
-		)
-		(pin "13"
-			(uuid "ce684315-05d8-48eb-bff3-48101cb7f2ae")
-		)
-		(instances
-			(project "BMS_PCB"
-				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786/87fe232f-8506-496f-8634-33aef9628ad6"
-					(reference "K1")
 					(unit 1)
 				)
 			)

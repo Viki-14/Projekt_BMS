@@ -11,4 +11,5 @@
   (lib (name "AMC1350DWVR")(type "KiCad")(uri "C:/Users/Viktoria/Documents/Elektro- und Informationstechnik Bachelor of Enigneering/6. Semester/Projekt/Schaltplan_BMS/Bauteile/AMC1350DWVR/KiCad/AMC1350DWVR.kicad_sym")(options "")(descr ""))
   (lib (name "2N7002KT7G")(type "KiCad")(uri "C:/Users/Viktoria/Documents/Elektro- und Informationstechnik Bachelor of Enigneering/6. Semester/Projekt/Schaltplan_BMS/Bauteile/2N7002KT7G/KiCad/2N7002KT7G.kicad_sym")(options "")(descr ""))
   (lib (name "TPS70933DBVT")(type "KiCad")(uri "C:/Users/Viktoria/Documents/Elektro- und Informationstechnik Bachelor of Enigneering/6. Semester/Projekt/Schaltplan_BMS/Bauteile/TPS70933DBVT/KiCADv6/2025-04-10_00-36-54.kicad_sym")(options "")(descr ""))
+  (lib (name "J1021AS35VDC.20")(type "KiCad")(uri "C:/Users/Viktoria/Documents/Elektro- und Informationstechnik Bachelor of Enigneering/6. Semester/Projekt/Schaltplan_BMS/Bauteile/J1021AS35VDC.20/2025-04-23_21-59-53.kicad_sym")(options "")(descr ""))
 )
