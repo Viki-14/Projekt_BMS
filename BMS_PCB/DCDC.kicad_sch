@@ -2596,6 +2596,12 @@
 		(uuid "1e59a43e-87cc-4b43-a82c-da4e5386ec33")
 	)
 	(junction
+		(at 248.92 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26688a7b-b35f-4dc5-bc0e-e19202914421")
+	)
+	(junction
 		(at 177.8 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3328,6 +3334,16 @@
 			(type default)
 		)
 		(uuid "9c760b26-6dc7-476b-95b9-84dcfe434c5a")
+	)
+	(wire
+		(pts
+			(xy 248.92 114.3) (xy 254 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27ba1e5-0037-495e-8a7a-add8fc52ee14")
 	)
 	(wire
 		(pts
@@ -4270,6 +4286,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 254 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33914d87-f514-4227-9dc3-ca343398b6a1")
+		(property "Reference" "TP3"
+			(at 256.54 109.7279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 256.54 112.2679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 259.08 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 254 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62766c10-e120-43d4-a4e0-b3f253310978")
+		)
+		(instances
+			(project ""
+				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786/6fb3ba5e-2f75-4f5a-9ee2-e60121c4d894"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 87.63 127 0)
 		(unit 1)
@@ -5091,6 +5174,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 123.19 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "757f3e4d-82c3-445c-b581-b4002662bdd9")
+		(property "Reference" "TP1"
+			(at 125.73 108.4579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 125.73 110.9979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 128.27 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dd115e4-9816-4050-b977-17f3212cc167")
+		)
+		(instances
+			(project ""
+				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786/6fb3ba5e-2f75-4f5a-9ee2-e60121c4d894"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 214.63 52.07 0)
 		(unit 1)
@@ -5451,7 +5601,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2,2u"
+		(property "Value" "2u2"
 			(at 45.72 128.2699 0)
 			(effects
 				(font
@@ -5906,73 +6056,6 @@
 			(project ""
 				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786/6fb3ba5e-2f75-4f5a-9ee2-e60121c4d894"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 123.19 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b20c2d85-bda1-48b3-a3f7-d889bd845628")
-		(property "Reference" "TP3"
-			(at 125.73 108.4579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 125.73 110.9979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 128.27 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 123.19 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a36358b9-e748-49f7-9965-64b400b7c2a8")
-		)
-		(instances
-			(project ""
-				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786/6fb3ba5e-2f75-4f5a-9ee2-e60121c4d894"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
