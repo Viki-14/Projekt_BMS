@@ -1,8 +1,8 @@
 (fp_lib_table
   (version 7)
-  (lib (name "REC15E")(type "KiCad")(uri "C:/Users/Viktoria/Documents/Elektro- und Informationstechnik Bachelor of Enigneering/6. Semester/Projekt/Schaltplan_BMS/Bauteile/REC15E.pretty")(options "")(descr ""))
-  (lib (name "AMC1350")(type "KiCad")(uri "C:/Users/Viktoria/Documents/Elektro- und Informationstechnik Bachelor of Enigneering/6. Semester/Projekt/Schaltplan_BMS/Bauteile/AMC1350DWVR/KiCad/AMC1350.pretty")(options "")(descr ""))
-  (lib (name "STMF407_Disc_Board")(type "KiCad")(uri "C:/Users/Viktoria/Documents/Elektro- und Informationstechnik Bachelor of Enigneering/6. Semester/Projekt/Schaltplan_BMS/Bauteile/STMF407_Disc_Board")(options "")(descr ""))
-  (lib (name "R1SE")(type "KiCad")(uri "C:/Users/Viktoria/Documents/Elektro- und Informationstechnik Bachelor of Enigneering/6. Semester/Projekt/Schaltplan_BMS/Bauteile/R1SE-0505-R/KiCad")(options "")(descr ""))
-  (lib (name "J1021AS35VDC.20")(type "KiCad")(uri "C:/Users/Viktoria/Documents/Elektro- und Informationstechnik Bachelor of Enigneering/6. Semester/Projekt/Schaltplan_BMS/Bauteile/J1021AS35VDC.20/footprints.pretty")(options "")(descr ""))
+  (lib (name "REC15E")(type "KiCad")(uri "${KIPRJMOD}/Bauteile/REC15E.pretty")(options "")(descr ""))
+  (lib (name "AMC1350")(type "KiCad")(uri "${KIPRJMOD}/Bauteile/AMC1350DWVR/KiCad")(options "")(descr ""))
+  (lib (name "STMF407_Disc_Board")(type "KiCad")(uri "${KIPRJMOD}/Bauteile/STMF407_Disc_Board")(options "")(descr ""))
+  (lib (name "R1SE")(type "KiCad")(uri "${KIPRJMOD}/Bauteile/R1SE-0505-R/KiCad")(options "")(descr ""))
+  (lib (name "J1021AS35VDC.20")(type "KiCad")(uri "${KIPRJMOD}/Bauteile/J1021AS35VDC.20/footprints.pretty")(options "")(descr ""))
 )
