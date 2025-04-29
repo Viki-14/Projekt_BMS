@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TLV2401IDBVR
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=1.1
+Released=2020-02-28 06:58:58
+Downloaded=2025-04-10 08:54:21
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'REC15E_2412SZ'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "RECOM Power", "REC15E-2412SZ" (!) = "", "REC15E2412SZ", "Other", "919-REC15E-2412SZ", "https://www.mouser.co.uk/ProductDetail/RECOM-Power/REC15E-2412SZ?qs=lc2O%252BfHJPVaB%252BhHbKF22Hg%3D%3D", "Isolated Module DC DC Converter 1 Output 12V 1.25A 9V - 36V Input", "https://g.recomcdn.com/media/Datasheet/pdf/.fX2aue-W/.tb5cc79728e7bdacded41/Datasheet-81/REC15E-Z.pdf", "10.5 mm"
+END_PART
+
+END.

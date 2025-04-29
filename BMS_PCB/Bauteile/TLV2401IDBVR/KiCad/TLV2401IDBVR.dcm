@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV2401IDBVR
+D Single MicroPower, RRIO Operational Amplifier with wide supply voltage range and high CMRR
+K
+F http://www.ti.com/lit/gpn/TLV2401
+$ENDCMP
+#
+#End Doc Library
