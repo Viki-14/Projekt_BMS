@@ -2144,16 +2144,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 135.89) (xy 54.61 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8421445a-455a-4e99-91bd-9dccf6df2256")
-	)
-	(wire
-		(pts
 			(xy 41.91 85.09) (xy 41.91 87.63)
 		)
 		(stroke
@@ -2181,6 +2171,16 @@
 			(type default)
 		)
 		(uuid "92752c34-b4ec-4e22-b866-27b4ddd9551d")
+	)
+	(wire
+		(pts
+			(xy 36.83 138.43) (xy 54.61 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e66f160-aba1-465c-9558-3ed38b371307")
 	)
 	(wire
 		(pts
@@ -2264,6 +2264,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 135.89) (xy 54.61 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd67b443-520f-4d1f-8fc2-251d6abc5de5")
+	)
+	(wire
+		(pts
 			(xy 48.26 110.49) (xy 54.61 110.49)
 		)
 		(stroke
@@ -2341,16 +2351,6 @@
 			(type default)
 		)
 		(uuid "eff4eaa9-611c-43bc-98e1-5cfe69dd2e62")
-	)
-	(wire
-		(pts
-			(xy 36.83 138.43) (xy 54.61 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0761868-a111-4c59-b8c0-e6607bcafb83")
 	)
 	(wire
 		(pts
@@ -2650,7 +2650,7 @@
 	)
 	(global_label "Relais_out-"
 		(shape input)
-		(at 54.61 138.43 0)
+		(at 54.61 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2660,7 +2660,7 @@
 		)
 		(uuid "acb0c74c-4fc2-47f2-ba25-533d2634ec3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.9646 138.43 0)
+			(at 68.9646 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2760,7 @@
 	)
 	(global_label "Relais_out+"
 		(shape input)
-		(at 54.61 135.89 0)
+		(at 54.61 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2770,7 +2770,7 @@
 		)
 		(uuid "febcd8ce-3410-40a5-842f-36cf38cecdbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.9646 135.89 0)
+			(at 68.9646 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)

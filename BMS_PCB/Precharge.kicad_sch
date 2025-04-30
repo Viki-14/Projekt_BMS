@@ -1382,8 +1382,8 @@
 		(uuid "715572af-2450-451b-b1e3-a5d1a4fa3e79")
 	)
 	(no_connect
-		(at 134.62 76.2)
-		(uuid "28f2e084-6bc0-4334-88fe-cc435fd18a8b")
+		(at 134.62 53.34)
+		(uuid "60d4d1e5-65fb-4e60-b857-d286ca62f13c")
 	)
 	(no_connect
 		(at 127 53.34)
@@ -1521,13 +1521,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 48.26) (xy 134.62 53.34)
+			(xy 134.62 76.2) (xy 143.51 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bec735db-5ddc-4a7d-a487-78a4857ad40d")
+		(uuid "9e1016e4-34eb-4d3d-bebd-6789f9bb2153")
 	)
 	(wire
 		(pts
@@ -1541,7 +1541,17 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 30.48) (xy 134.62 40.64)
+			(xy 143.51 76.2) (xy 143.51 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c734348d-6051-4174-884c-93cffc12ea8d")
+	)
+	(wire
+		(pts
+			(xy 143.51 38.1) (xy 143.51 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1551,7 +1561,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 30.48) (xy 134.62 30.48)
+			(xy 149.86 38.1) (xy 143.51 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1625,7 +1635,7 @@
 	)
 	(global_label "Precharge_in"
 		(shape input)
-		(at 140.97 30.48 0)
+		(at 149.86 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1635,7 +1645,7 @@
 		)
 		(uuid "c0f74716-2737-453a-86d9-ae9f9b7a60bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.2318 30.48 0)
+			(at 165.1218 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1647,7 +1657,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 44.45 0)
+		(at 143.51 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1656,7 +1666,7 @@
 		(fields_autoplaced yes)
 		(uuid "0476d14e-c534-400d-8a4d-302447e5aeac")
 		(property "Reference" "R_Precharge1"
-			(at 137.16 43.1799 0)
+			(at 146.05 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,7 +1675,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 137.16 45.7199 0)
+			(at 146.05 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +1684,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder"
-			(at 132.842 44.45 90)
+			(at 141.732 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,7 +1693,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 44.45 0)
+			(at 143.51 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +1702,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 44.45 0)
+			(at 143.51 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1991,7 +2001,7 @@
 		(dnp no)
 		(uuid "a9adc406-f4f2-4d99-a41e-5d6d39183f88")
 		(property "Reference" "K1"
-			(at 140.97 63.4999 90)
+			(at 146.05 63.5 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2000,7 +2010,7 @@
 			)
 		)
 		(property "Value" "J1021AS35VDC.20"
-			(at 140.97 66.0399 90)
+			(at 146.05 66.04 90)
 			(effects
 				(font
 					(size 1.524 1.524)
