@@ -1854,16 +1854,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 138.43) (xy 54.61 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05497385-b138-4058-89d0-e1ae56834f68")
-	)
-	(wire
-		(pts
 			(xy 39.37 54.61) (xy 54.61 54.61)
 		)
 		(stroke
@@ -1871,6 +1861,16 @@
 			(type default)
 		)
 		(uuid "0649babe-9b5b-412f-ad0f-c6901c732787")
+	)
+	(wire
+		(pts
+			(xy 36.83 133.35) (xy 54.61 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07b35c32-6850-43ad-b6c3-c2d48c03f17f")
 	)
 	(wire
 		(pts
@@ -2064,13 +2064,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 133.35) (xy 54.61 133.35)
+			(xy 36.83 143.51) (xy 54.61 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56afaf11-b02d-417c-8ac9-2959b872e201")
+		(uuid "58f317f6-c49d-4672-a97a-1cdbd9dc57d9")
 	)
 	(wire
 		(pts
@@ -2124,6 +2124,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 140.97) (xy 54.61 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81fc75af-04ac-47d6-b54b-00c8b147d3cd")
+	)
+	(wire
+		(pts
 			(xy 36.83 123.19) (xy 54.61 123.19)
 		)
 		(stroke
@@ -2131,6 +2141,16 @@
 			(type default)
 		)
 		(uuid "834b6aee-b2da-43ac-ba3b-16a966a59713")
+	)
+	(wire
+		(pts
+			(xy 36.83 135.89) (xy 54.61 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8421445a-455a-4e99-91bd-9dccf6df2256")
 	)
 	(wire
 		(pts
@@ -2164,16 +2184,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 135.89) (xy 54.61 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "957157f7-f5b5-4145-b2d8-eb140b447283")
-	)
-	(wire
-		(pts
 			(xy 36.83 113.03) (xy 40.64 113.03)
 		)
 		(stroke
@@ -2191,16 +2201,6 @@
 			(type default)
 		)
 		(uuid "a41cc555-a5b4-4833-8b8b-78792e4ef1ac")
-	)
-	(wire
-		(pts
-			(xy 36.83 143.51) (xy 54.61 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a76eb8bd-35d3-49b1-87e3-fe661784195a")
 	)
 	(wire
 		(pts
@@ -2344,6 +2344,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 138.43) (xy 54.61 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0761868-a111-4c59-b8c0-e6607bcafb83")
+	)
+	(wire
+		(pts
 			(xy 36.83 128.27) (xy 54.61 128.27)
 		)
 		(stroke
@@ -2351,16 +2361,6 @@
 			(type default)
 		)
 		(uuid "f0dcb207-5640-4ee0-ba4e-10f77030a0e2")
-	)
-	(wire
-		(pts
-			(xy 36.83 140.97) (xy 54.61 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3d869dd-c1cd-423e-8e71-c6b9789e90be")
 	)
 	(global_label "Voltage4"
 		(shape input)
@@ -2518,7 +2518,7 @@
 	)
 	(global_label "Relais_in+"
 		(shape input)
-		(at 54.61 138.43 0)
+		(at 54.61 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2528,7 +2528,7 @@
 		)
 		(uuid "70dcda11-1c16-41d7-908d-edca40303527")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.6947 138.43 0)
+			(at 67.6947 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2650,7 @@
 	)
 	(global_label "Relais_out-"
 		(shape input)
-		(at 54.61 135.89 0)
+		(at 54.61 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2660,7 +2660,7 @@
 		)
 		(uuid "acb0c74c-4fc2-47f2-ba25-533d2634ec3e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.9646 135.89 0)
+			(at 68.9646 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +2694,7 @@
 	)
 	(global_label "Relais_in-"
 		(shape input)
-		(at 54.61 140.97 0)
+		(at 54.61 143.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2704,7 +2704,7 @@
 		)
 		(uuid "ebc7680a-d1a3-4425-ae2e-92265aefc793")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.6947 140.97 0)
+			(at 67.6947 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,7 +2716,7 @@
 	)
 	(global_label "Current"
 		(shape input)
-		(at 54.61 143.51 0)
+		(at 54.61 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2726,7 +2726,7 @@
 		)
 		(uuid "fafac05a-c9cc-431e-b37b-0b5898cb647a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.5499 143.51 0)
+			(at 64.5499 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +2760,7 @@
 	)
 	(global_label "Relais_out+"
 		(shape input)
-		(at 54.61 133.35 0)
+		(at 54.61 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2770,7 +2770,7 @@
 		)
 		(uuid "febcd8ce-3410-40a5-842f-36cf38cecdbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.9646 133.35 0)
+			(at 68.9646 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
