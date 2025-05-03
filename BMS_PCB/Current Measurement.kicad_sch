@@ -447,131 +447,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -818,12 +693,6 @@
 		(uuid "4ea03083-3ece-4a8a-aa74-1bfeceda0468")
 	)
 	(junction
-		(at 46.99 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7562d887-c039-40d2-8d46-c8446c1a7189")
-	)
-	(junction
 		(at 76.2 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -887,16 +756,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 90.17) (xy 59.69 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ef6e82b-89b0-4e53-9b6c-033480530bfe")
-	)
-	(wire
-		(pts
 			(xy 76.2 39.37) (xy 76.2 41.91)
 		)
 		(stroke
@@ -904,16 +763,6 @@
 			(type default)
 		)
 		(uuid "57165648-9e85-4faa-8e18-270a6a41be2e")
-	)
-	(wire
-		(pts
-			(xy 46.99 101.6) (xy 46.99 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "599b198d-ab64-4d18-a1b1-fd39c932b695")
 	)
 	(wire
 		(pts
@@ -927,16 +776,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 90.17) (xy 46.99 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6956d8b9-0b73-4527-99eb-6d0548429ca6")
-	)
-	(wire
-		(pts
 			(xy 36.83 46.99) (xy 46.99 46.99)
 		)
 		(stroke
@@ -944,16 +783,6 @@
 			(type default)
 		)
 		(uuid "6a44a54b-0605-451c-88b4-3e43b7320578")
-	)
-	(wire
-		(pts
-			(xy 46.99 86.36) (xy 46.99 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e656dc4-57b1-459b-bda5-c69d90b30065")
 	)
 	(wire
 		(pts
@@ -1084,28 +913,6 @@
 			(type default)
 		)
 		(uuid "f62f26ff-9613-4555-849a-f1a0471a6a88")
-	)
-	(global_label "Vcc_Current"
-		(shape output)
-		(at 59.69 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "034f0f15-9c33-4f4c-9bd0-5647fbbb7e1f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.8633 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "Current_uC"
 		(shape input)
@@ -1499,72 +1306,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e474d69-83f6-4be3-ae42-bd3dba59bcdb")
-		(property "Reference" "#PWR083"
-			(at 46.99 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 46.99 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1627c829-bb76-4da3-97fb-01310061b435")
-		)
-		(instances
-			(project ""
-				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786/97cd556a-bb13-4bbd-9a52-b5c25c14caba"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 107.95 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1624,72 +1365,6 @@
 			(project "BMS_PCB"
 				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786/97cd556a-bb13-4bbd-9a52-b5c25c14caba"
 					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 46.99 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42c8625f-2929-4465-a038-61ddd038a2ae")
-		(property "Reference" "#PWR02"
-			(at 46.99 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 46.99 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 46.99 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba758130-b480-45c8-8ed8-e455a79037ff")
-		)
-		(instances
-			(project ""
-				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786/97cd556a-bb13-4bbd-9a52-b5c25c14caba"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1894,76 +1569,6 @@
 			(project ""
 				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786/97cd556a-bb13-4bbd-9a52-b5c25c14caba"
 					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 46.99 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79c0a208-8cc1-4bff-8724-fd46baa8eae5")
-		(property "Reference" "C32"
-			(at 50.8 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0,1uF"
-			(at 50.8 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 47.9552 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 46.99 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "44836ae6-5e27-4b0a-8184-126a9750b071")
-		)
-		(pin "1"
-			(uuid "11eff87a-f02e-4a96-bac2-9e2d97150f9c")
-		)
-		(instances
-			(project ""
-				(path "/f3f5bf67-59a2-4fff-a256-b414fb7b1786/97cd556a-bb13-4bbd-9a52-b5c25c14caba"
-					(reference "C32")
 					(unit 1)
 				)
 			)
