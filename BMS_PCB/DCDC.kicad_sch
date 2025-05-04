@@ -2775,6 +2775,10 @@
 		(at 78.74 53.34)
 		(uuid "d08c7d71-1e7a-4a6a-bafa-bb9c7a377e02")
 	)
+	(no_connect
+		(at 233.68 116.84)
+		(uuid "e10c2d39-b65d-4d8a-b244-45bbb6c9a698")
+	)
 	(wire
 		(pts
 			(xy 214.63 44.45) (xy 224.79 44.45)
