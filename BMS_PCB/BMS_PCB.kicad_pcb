@@ -17049,7 +17049,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
-			(at 2.121003 0.0179 0)
+			(at 0.11375 2.7625 0)
 			(layer "F.SilkS")
 			(uuid "ace6e076-db5f-459b-8100-8dcb281a5c53")
 			(effects
