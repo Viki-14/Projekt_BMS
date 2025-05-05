@@ -52,7 +52,12 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|29286826|94320081|3f8f6a8e-bd27-4b22-a574-90e4263041cb|49e56b34-5625-4f9b-adb1-a614ed2ea3ec",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -520,7 +525,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Gerber Files/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "BMS_PCB.step",
