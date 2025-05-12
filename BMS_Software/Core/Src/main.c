@@ -93,6 +93,9 @@ float ThresholdCurrentHigh = 90.0f;
 //RunTime
 int RunTime; //(lokal: int hour=0; int mins=0; int secs=0;)
 
+//Button Display
+bool ButtonContactor = false; //(false (=open) or true (=closed) initial?)
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
