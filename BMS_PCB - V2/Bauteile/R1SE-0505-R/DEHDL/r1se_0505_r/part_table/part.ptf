@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'R1SE_0505_R'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "RECOM Power", "R1SE-0505-R" (!) = "", "R1SE0505", "Other", "919-R1SE-0505-R", "https://www.mouser.co.uk/ProductDetail/RECOM-Power/R1SE-0505-R?qs=W2iVYWQZWNCWKEXHaHORwQ%3D%3D", "RECOM POWER - R1SE-0505-R - DC/DC CONVERTER, 1X O/P, 0.2A, 5V, 1W", "", "7.75 mm"
+END_PART
+
+END.

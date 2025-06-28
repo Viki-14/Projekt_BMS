@@ -1,0 +1,16 @@
+.TPS560430XFDBVT :1 ;SIMPLE SWITCHER 36-V, 600-mA Buck Regulator With High-Efficiency Sleep Mode
+SOT95P280X145-6N
+*STM IC
+*NGS
+*PLB 1="CB" 2="GND" 3="FB" 4="EN" 5="VIN" 6="SW"
+*MXP 6
+*DFN TPS560430XFDBVT
+~!Mouser Part Number (595-TPS560430XFDBVT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS560430XFDBVT?qs=y6ZabgHbY%252ByMeZF67fh2Bg%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS560430XFDBVT)
+~!Link Datasheet (http://www.ti.com/lit/gpn/tps560430)
+~!Height (1.45mm)
+~!3D_Model (TPS560430XFDBVT)
+TPS560430XFDBVT
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

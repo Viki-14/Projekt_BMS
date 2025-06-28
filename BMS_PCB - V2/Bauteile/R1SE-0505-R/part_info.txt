@@ -1,0 +1,9 @@
+Manufacturer=RECOM Power
+PartNumber=R1SE-0505-R
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=5
+Version=5.1
+Released=2017-11-04 12:06:38
+Downloaded=2025-04-18 15:28:41
+3D=Y

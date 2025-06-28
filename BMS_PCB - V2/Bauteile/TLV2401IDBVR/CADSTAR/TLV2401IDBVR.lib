@@ -1,0 +1,16 @@
+.TLV2401IDBVR :1 ;Single MicroPower, RRIO Operational Amplifier with wide supply voltage range and high CMRR
+SOT95P280X145-5N
+*STM IC
+*NGS
+*PLB 1="OUT" 2="GND" 3="IN+" 4="IN-" 5="VCC"
+*MXP 5
+*DFN TLV2401IDBVR
+~!Mouser Part Number (595-TLV2401IDBVR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV2401IDBVR?qs=Fg5TsMy7H4sZqbRBxy6O4Q%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TLV2401IDBVR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/TLV2401)
+~!Height (1.45mm)
+~!3D_Model (TLV2401IDBVR)
+TLV2401IDBVR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

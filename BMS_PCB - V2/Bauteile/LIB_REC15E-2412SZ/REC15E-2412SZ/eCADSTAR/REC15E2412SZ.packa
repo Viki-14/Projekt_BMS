@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "REC15E-2412SZ"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-02-22-05:36:56)
+    (mountForm default
+        (footprintRef "REC15E2412SZ")
+        (spec "System")
+    )
+)

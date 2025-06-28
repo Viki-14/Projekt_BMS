@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TLV2401IDBVR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TLV2401IDBVR" (!) = "", "SOT95P280X145-5N", "SOT23 (5-Pin)", "595-TLV2401IDBVR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV2401IDBVR?qs=Fg5TsMy7H4sZqbRBxy6O4Q%3D%3D", "Single MicroPower, RRIO Operational Amplifier with wide supply voltage range and high CMRR", "http://www.ti.com/lit/gpn/TLV2401", "1.45 mm"
+END_PART
+
+END.
